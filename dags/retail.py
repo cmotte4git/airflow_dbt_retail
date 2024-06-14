@@ -3,6 +3,7 @@ from datetime import datetime
 
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyDatasetOperator
+from airflow.models.baseoperator import chain
 from astro import sql as aql
 from astro.files import File
 from astro.sql.table import Table, Metadata
@@ -60,5 +61,23 @@ def retail():
         )
     )
     
+    report = DbtTaskGroup(
+        group_id='report',
+        project_config=DBT_PROJECT_CONFIG,
+        profile_config=DBT_CONFIG,
+        render_config=RenderConfig(
+            load_method=LoadMode.DBT_LS,
+            select=['path:models/report']
+        )
+    )
+
+    chain(
+        upload_csv_to_gcs,
+        create_retail_dataset,
+        gcs_to_raw,
+        transform,
+        report,
+    )
 
 retail()
+

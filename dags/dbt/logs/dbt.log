@@ -1,0 +1,251 @@
+
+
+============================== 2024-06-13 22:46:53.467847 | 82671667-d527-437a-95ff-9bc6ca751ee4 ==============================
+[0m22:46:53.467847 [info ] [MainThread]: Running with dbt=1.4.9
+[0m22:46:53.470581 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/usr/local/airflow/dags/dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m22:46:53.471267 [debug] [MainThread]: Tracking: tracking
+[0m22:46:53.474904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5d70a190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5dd5bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5d742490>]}
+[0m22:46:53.478329 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-c6771ypg'
+[0m22:46:53.479633 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m22:46:53.612359 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m22:46:53.615095 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m22:46:53.757352 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m22:46:53.783151 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m22:46:54.321872 [info ] [MainThread]:   Installed from version 1.1.1
+[0m22:46:54.323610 [info ] [MainThread]:   Updated version available: 1.2.0
+[0m22:46:54.324385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '82671667-d527-437a-95ff-9bc6ca751ee4', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5dbbec10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5db90bd0>]}
+[0m22:46:54.324970 [info ] [MainThread]: 
+[0m22:46:54.325635 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m22:46:54.326698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5dd43fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5dbbec10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5dbbea50>]}
+[0m22:46:54.327250 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2024-06-13 23:41:31.857199 | 8a105946-8cd9-45b7-a534-c779b69237a8 ==============================
+[0m23:41:31.857199 [info ] [MainThread]: Running with dbt=1.4.9
+[0m23:41:31.859278 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/usr/local/airflow/dags/dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m23:41:31.859832 [debug] [MainThread]: Tracking: tracking
+[0m23:41:31.863958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a87e1510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a838cf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a83a1450>]}
+[0m23:41:31.865267 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-lral928t'
+[0m23:41:31.866189 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m23:41:32.005124 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m23:41:32.014143 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m23:41:32.159726 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m23:41:32.184906 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m23:41:32.745644 [info ] [MainThread]:   Installed from version 1.1.1
+[0m23:41:32.746994 [info ] [MainThread]:   Updated version available: 1.2.0
+[0m23:41:32.748525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '8a105946-8cd9-45b7-a534-c779b69237a8', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a86e8d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a8b09050>]}
+[0m23:41:32.749492 [info ] [MainThread]: 
+[0m23:41:32.750666 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m23:41:32.752641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a86fb190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a8c3ea50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a83bca90>]}
+[0m23:41:32.753929 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2024-06-13 23:48:58.933258 | b95362e2-caac-4c91-8893-cfc430024c26 ==============================
+[0m23:48:58.933258 [info ] [MainThread]: Running with dbt=1.4.9
+[0m23:48:58.935223 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/usr/local/airflow/dags/dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['path:models/transform'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:48:58.935647 [debug] [MainThread]: Tracking: tracking
+[0m23:48:58.941295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0c1510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f1d7950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0adc10>]}
+[0m23:48:58.985963 [debug] [MainThread]: checksum: 07ac7676dbf91b944d5fe41bac352fb2dda62b33015cbd1e52faa2a2c71f6d73, vars: {}, profile: None, target: None, version: 1.4.9
+[0m23:48:58.987693 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:48:58.988357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0d40d0>]}
+[0m23:49:00.038763 [debug] [MainThread]: 1603: static parser failed on transform/dim_customer.sql
+[0m23:49:00.068401 [debug] [MainThread]: 1602: parser fallback to jinja rendering on transform/dim_customer.sql
+[0m23:49:00.070564 [debug] [MainThread]: 1603: static parser failed on transform/dim_product.sql
+[0m23:49:00.078321 [debug] [MainThread]: 1602: parser fallback to jinja rendering on transform/dim_product.sql
+[0m23:49:00.080661 [debug] [MainThread]: 1699: static parser successfully parsed transform/dim_datetime.sql
+[0m23:49:00.084476 [debug] [MainThread]: 1603: static parser failed on transform/fct_invoices.sql
+[0m23:49:00.094985 [debug] [MainThread]: 1602: parser fallback to jinja rendering on transform/fct_invoices.sql
+[0m23:49:00.251616 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt.transform
+[0m23:49:00.257775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0ccc10>]}
+[0m23:49:00.271017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7efa6510>]}
+[0m23:49:00.271630 [info ] [MainThread]: Found 4 models, 0 tests, 0 snapshots, 0 analyses, 451 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m23:49:00.272353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0dc410>]}
+[0m23:49:00.274567 [info ] [MainThread]: 
+[0m23:49:00.277387 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:49:00.279899 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_airflow-dbt-426117'
+[0m23:49:00.280506 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:49:00.890366 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_airflow-dbt-426117_retail'
+[0m23:49:00.891532 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:49:01.599466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7efa6210>]}
+[0m23:49:01.601640 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:49:01.603045 [info ] [MainThread]: 
+[0m23:49:01.613205 [debug] [Thread-1 (]: Began running node model.retail.dim_customer
+[0m23:49:01.614763 [info ] [Thread-1 (]: 1 of 4 START sql view model retail.dim_customer ................................ [RUN]
+[0m23:49:01.617330 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.retail.dim_customer'
+[0m23:49:01.618442 [debug] [Thread-1 (]: Began compiling node model.retail.dim_customer
+[0m23:49:01.634544 [debug] [Thread-1 (]: Writing injected SQL for node "model.retail.dim_customer"
+[0m23:49:01.638753 [debug] [Thread-1 (]: Timing info for model.retail.dim_customer (compile): 2024-06-13 23:49:01.619432 => 2024-06-13 23:49:01.638532
+[0m23:49:01.639895 [debug] [Thread-1 (]: Began executing node model.retail.dim_customer
+[0m23:49:01.685171 [debug] [Thread-1 (]: Writing runtime sql for node "model.retail.dim_customer"
+[0m23:49:01.687603 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:49:01.739559 [debug] [Thread-1 (]: On model.retail.dim_customer: /* {"app": "dbt", "dbt_version": "1.4.9", "profile_name": "retail", "target_name": "dev", "node_id": "model.retail.dim_customer"} */
+
+
+  create or replace view `airflow-dbt-426117`.`retail`.`dim_customer`
+  OPTIONS()
+  as -- dim_customer.sql
+
+-- Create the dimension table
+WITH customer_cte AS (
+	SELECT DISTINCT
+	    to_hex(md5(cast(coalesce(cast(CustomerID as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(Country as STRING), '_dbt_utils_surrogate_key_null_') as STRING))) as customer_id,
+	    Country AS country
+	FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
+	WHERE CustomerID IS NOT NULL
+)
+SELECT
+    t.*,
+	cm.iso
+FROM customer_cte t
+LEFT JOIN `airflow-dbt-426117`.`retail`.`country` cm ON t.country = cm.nicename;
+
+
+[0m23:49:03.538409 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=airflow-dbt-426117&j=bq:US:ebddd08d-a932-4b84-95bf-59590daf4f5f&page=queryresults
+[0m23:49:03.563185 [debug] [Thread-1 (]: Timing info for model.retail.dim_customer (execute): 2024-06-13 23:49:01.640774 => 2024-06-13 23:49:03.563014
+[0m23:49:03.565505 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7f0a3e10>]}
+[0m23:49:03.566916 [info ] [Thread-1 (]: 1 of 4 OK created sql view model retail.dim_customer ........................... [[32mCREATE VIEW (0 processed)[0m in 1.95s]
+[0m23:49:03.571628 [debug] [Thread-1 (]: Finished running node model.retail.dim_customer
+[0m23:49:03.572773 [debug] [Thread-1 (]: Began running node model.retail.dim_datetime
+[0m23:49:03.573890 [info ] [Thread-1 (]: 2 of 4 START sql view model retail.dim_datetime ................................ [RUN]
+[0m23:49:03.575913 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.retail.dim_datetime'
+[0m23:49:03.576823 [debug] [Thread-1 (]: Began compiling node model.retail.dim_datetime
+[0m23:49:03.591048 [debug] [Thread-1 (]: Writing injected SQL for node "model.retail.dim_datetime"
+[0m23:49:03.592393 [debug] [Thread-1 (]: Timing info for model.retail.dim_datetime (compile): 2024-06-13 23:49:03.577736 => 2024-06-13 23:49:03.592285
+[0m23:49:03.593025 [debug] [Thread-1 (]: Began executing node model.retail.dim_datetime
+[0m23:49:03.597438 [debug] [Thread-1 (]: Writing runtime sql for node "model.retail.dim_datetime"
+[0m23:49:03.598768 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:49:03.650575 [debug] [Thread-1 (]: On model.retail.dim_datetime: /* {"app": "dbt", "dbt_version": "1.4.9", "profile_name": "retail", "target_name": "dev", "node_id": "model.retail.dim_datetime"} */
+
+
+  create or replace view `airflow-dbt-426117`.`retail`.`dim_datetime`
+  OPTIONS()
+  as -- dim_datetime.sql
+
+-- Create a CTE to extract date and time components
+WITH datetime_cte AS (  
+  SELECT DISTINCT
+    InvoiceDate AS datetime_id,
+    CASE
+      WHEN LENGTH(InvoiceDate) = 16 THEN
+        -- Date format: "DD/MM/YYYY HH:MM"
+        PARSE_DATETIME('%m/%d/%Y %H:%M', InvoiceDate)
+      WHEN LENGTH(InvoiceDate) <= 14 THEN
+        -- Date format: "MM/DD/YY HH:MM"
+        PARSE_DATETIME('%m/%d/%y %H:%M', InvoiceDate)
+      ELSE
+        NULL
+    END AS date_part,
+  FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
+  WHERE InvoiceDate IS NOT NULL
+)
+SELECT
+  datetime_id,
+  date_part as datetime,
+  EXTRACT(YEAR FROM date_part) AS year,
+  EXTRACT(MONTH FROM date_part) AS month,
+  EXTRACT(DAY FROM date_part) AS day,
+  EXTRACT(HOUR FROM date_part) AS hour,
+  EXTRACT(MINUTE FROM date_part) AS minute,
+  EXTRACT(DAYOFWEEK FROM date_part) AS weekday
+FROM datetime_cte;
+
+
+[0m23:49:04.992219 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=airflow-dbt-426117&j=bq:US:9ce056ba-b485-4936-9223-495b2bdc095b&page=queryresults
+[0m23:49:04.998005 [debug] [Thread-1 (]: Timing info for model.retail.dim_datetime (execute): 2024-06-13 23:49:03.593490 => 2024-06-13 23:49:04.997869
+[0m23:49:04.999883 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7ef8c410>]}
+[0m23:49:05.001183 [info ] [Thread-1 (]: 2 of 4 OK created sql view model retail.dim_datetime ........................... [[32mCREATE VIEW (0 processed)[0m in 1.42s]
+[0m23:49:05.002549 [debug] [Thread-1 (]: Finished running node model.retail.dim_datetime
+[0m23:49:05.003660 [debug] [Thread-1 (]: Began running node model.retail.dim_product
+[0m23:49:05.004751 [info ] [Thread-1 (]: 3 of 4 START sql view model retail.dim_product ................................. [RUN]
+[0m23:49:05.006554 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.retail.dim_product'
+[0m23:49:05.007420 [debug] [Thread-1 (]: Began compiling node model.retail.dim_product
+[0m23:49:05.022919 [debug] [Thread-1 (]: Writing injected SQL for node "model.retail.dim_product"
+[0m23:49:05.025040 [debug] [Thread-1 (]: Timing info for model.retail.dim_product (compile): 2024-06-13 23:49:05.008040 => 2024-06-13 23:49:05.024880
+[0m23:49:05.026310 [debug] [Thread-1 (]: Began executing node model.retail.dim_product
+[0m23:49:05.033422 [debug] [Thread-1 (]: Writing runtime sql for node "model.retail.dim_product"
+[0m23:49:05.035791 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:49:05.096780 [debug] [Thread-1 (]: On model.retail.dim_product: /* {"app": "dbt", "dbt_version": "1.4.9", "profile_name": "retail", "target_name": "dev", "node_id": "model.retail.dim_product"} */
+
+
+  create or replace view `airflow-dbt-426117`.`retail`.`dim_product`
+  OPTIONS()
+  as -- dim_product.sql
+-- StockCode isn't unique, a product with the same id can have different and prices
+-- Create the dimension table
+SELECT DISTINCT
+    to_hex(md5(cast(coalesce(cast(StockCode as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(Description as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(UnitPrice as STRING), '_dbt_utils_surrogate_key_null_') as STRING))) as product_id,
+		StockCode AS stock_code,
+    Description AS description,
+    UnitPrice AS price
+FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
+WHERE StockCode IS NOT NULL
+AND UnitPrice > 0;
+
+
+[0m23:49:06.406469 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=airflow-dbt-426117&j=bq:US:390233df-47f5-410c-a964-ac04520bf4d0&page=queryresults
+[0m23:49:06.411344 [debug] [Thread-1 (]: Timing info for model.retail.dim_product (execute): 2024-06-13 23:49:05.027387 => 2024-06-13 23:49:06.411202
+[0m23:49:06.413317 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7ef23110>]}
+[0m23:49:06.414673 [info ] [Thread-1 (]: 3 of 4 OK created sql view model retail.dim_product ............................ [[32mCREATE VIEW (0 processed)[0m in 1.41s]
+[0m23:49:06.416302 [debug] [Thread-1 (]: Finished running node model.retail.dim_product
+[0m23:49:06.418879 [debug] [Thread-1 (]: Began running node model.retail.fct_invoices
+[0m23:49:06.419969 [info ] [Thread-1 (]: 4 of 4 START sql view model retail.fct_invoices ................................ [RUN]
+[0m23:49:06.421965 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.retail.fct_invoices'
+[0m23:49:06.423044 [debug] [Thread-1 (]: Began compiling node model.retail.fct_invoices
+[0m23:49:06.447525 [debug] [Thread-1 (]: Writing injected SQL for node "model.retail.fct_invoices"
+[0m23:49:06.453420 [debug] [Thread-1 (]: Timing info for model.retail.fct_invoices (compile): 2024-06-13 23:49:06.423992 => 2024-06-13 23:49:06.453226
+[0m23:49:06.455935 [debug] [Thread-1 (]: Began executing node model.retail.fct_invoices
+[0m23:49:06.464123 [debug] [Thread-1 (]: Writing runtime sql for node "model.retail.fct_invoices"
+[0m23:49:06.466162 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:49:06.520493 [debug] [Thread-1 (]: On model.retail.fct_invoices: /* {"app": "dbt", "dbt_version": "1.4.9", "profile_name": "retail", "target_name": "dev", "node_id": "model.retail.fct_invoices"} */
+
+
+  create or replace view `airflow-dbt-426117`.`retail`.`fct_invoices`
+  OPTIONS()
+  as -- fct_invoices.sql
+
+-- Create the fact table by joining the relevant keys from dimension table
+WITH fct_invoices_cte AS (
+    SELECT
+        InvoiceNo AS invoice_id,
+        InvoiceDate AS datetime_id,
+        to_hex(md5(cast(coalesce(cast(StockCode as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(Description as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(UnitPrice as STRING), '_dbt_utils_surrogate_key_null_') as STRING))) as product_id,
+        to_hex(md5(cast(coalesce(cast(CustomerID as STRING), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(Country as STRING), '_dbt_utils_surrogate_key_null_') as STRING))) as customer_id,
+        Quantity AS quantity,
+        Quantity * UnitPrice AS total
+    FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
+    WHERE Quantity > 0
+)
+SELECT
+    invoice_id,
+    dt.datetime_id,
+    dp.product_id,
+    dc.customer_id,
+    quantity,
+    total
+FROM fct_invoices_cte fi
+INNER JOIN `airflow-dbt-426117`.`retail`.`dim_datetime` dt ON fi.datetime_id = dt.datetime_id
+INNER JOIN `airflow-dbt-426117`.`retail`.`dim_product` dp ON fi.product_id = dp.product_id
+INNER JOIN `airflow-dbt-426117`.`retail`.`dim_customer` dc ON fi.customer_id = dc.customer_id;
+
+
+[0m23:49:07.941735 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=airflow-dbt-426117&j=bq:US:fecab732-6ed0-4793-86f1-dd41036e3f7b&page=queryresults
+[0m23:49:07.944259 [debug] [Thread-1 (]: Timing info for model.retail.fct_invoices (execute): 2024-06-13 23:49:06.457209 => 2024-06-13 23:49:07.944195
+[0m23:49:07.945405 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95362e2-caac-4c91-8893-cfc430024c26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7effc950>]}
+[0m23:49:07.946372 [info ] [Thread-1 (]: 4 of 4 OK created sql view model retail.fct_invoices ........................... [[32mCREATE VIEW (0 processed)[0m in 1.52s]
+[0m23:49:07.947126 [debug] [Thread-1 (]: Finished running node model.retail.fct_invoices
+[0m23:49:07.949957 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:49:07.950782 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:49:07.951540 [debug] [MainThread]: Connection 'model.retail.fct_invoices' was properly closed.
+[0m23:49:07.952422 [info ] [MainThread]: 
+[0m23:49:07.954580 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 7.68 seconds (7.68s).
+[0m23:49:07.957142 [debug] [MainThread]: Command end result
+[0m23:49:07.997786 [info ] [MainThread]: 
+[0m23:49:07.999410 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:49:08.000739 [info ] [MainThread]: 
+[0m23:49:08.002002 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m23:49:08.003454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7ee56310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b8606d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b7ef0f0d0>]}
+[0m23:49:08.004539 [debug] [MainThread]: Flushing usage events

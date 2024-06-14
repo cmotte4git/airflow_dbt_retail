@@ -14,7 +14,7 @@ WITH datetime_cte AS (
       ELSE
         NULL
     END AS date_part,
-  FROM {{ source('retail', 'raw_invoices') }}
+  FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
   WHERE InvoiceDate IS NOT NULL
 )
 SELECT

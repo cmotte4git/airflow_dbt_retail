@@ -1,4 +1,8 @@
--- dim_datetime.sql
+
+
+  create or replace view `airflow-dbt-426117`.`retail`.`dim_datetime`
+  OPTIONS()
+  as -- dim_datetime.sql
 
 -- Create a CTE to extract date and time components
 WITH datetime_cte AS (  
@@ -14,7 +18,7 @@ WITH datetime_cte AS (
       ELSE
         NULL
     END AS date_part,
-  FROM {{ source('retail', 'raw_invoices') }}
+  FROM `airflow-dbt-426117`.`retail`.`raw_invoices`
   WHERE InvoiceDate IS NOT NULL
 )
 SELECT
@@ -26,4 +30,5 @@ SELECT
   EXTRACT(HOUR FROM date_part) AS hour,
   EXTRACT(MINUTE FROM date_part) AS minute,
   EXTRACT(DAYOFWEEK FROM date_part) AS weekday
-FROM datetime_cte
+FROM datetime_cte;
+

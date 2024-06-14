@@ -6,7 +6,7 @@ retail:
   dev:
     type: bigquery
     method: service-account
-    keyfile: /usr/local/airflow/include/gcp/service_account.json
+    keyfile: /usr/local/airflow/dags/dbt/gcp/service_account.json 
     project: airflow-dbt-426117
     dataset: retail
     threads: 1
